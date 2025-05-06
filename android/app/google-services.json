@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "683855906482",
+    "project_id": "ambaread-mobile-2025-65007",
+    "storage_bucket": "ambaread-mobile-2025-65007.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683855906482:android:001774b65e160274292bab",
+        "android_client_info": {
+          "package_name": "com.example.project_pmob"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfNkHftMq_WrrMETZMSVRq_MwdhA75-To"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

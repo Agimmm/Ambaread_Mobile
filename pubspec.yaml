@@ -1,0 +1,51 @@
+name: project_pmob
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.13.0
+  cloud_firestore: ^5.6.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  audioplayers: ^6.4.0 
+  flutter_tts: ^4.2.2
+  provider: ^6.0.5
+
+  # Tambahkan lainnya sesuai kebutuhan
+  firebase_storage: ^12.4.5        # Untuk upload gambar
+  firebase_messaging: ^15.2.5      # Jika pakai push notification
+  firebase_auth: ^5.5.3
+  firebase_data_connect: ^0.1.4
+flutter_native_splash: ^2.4.5
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/ 
+    - assets/danbud.jpg
+    - assets/audio/
+    - assets/anakanak.png
+    - assets/background.jpg
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
